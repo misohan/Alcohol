@@ -1,6 +1,6 @@
-package beers;
+package alcohol.beers;
 
-public class Lager extends Beers {
+public class Porter extends Beers {
 
     @Override
     public String levelOfExcise() {
@@ -9,6 +9,6 @@ public class Lager extends Beers {
 
     @Override
     public String hangoverOutcome() {
-        return "Amnesia";
+        return "Massive headache";
     }
 }

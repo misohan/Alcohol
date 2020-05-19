@@ -1,6 +1,6 @@
-package vodka;
+package alcohol.vodka;
 
-import beers.Alcohol;
+import alcohol.Alcohol;
 
 public abstract class Vodka implements Alcohol {
 

@@ -1,6 +1,7 @@
-package beers;
+package alcohol.beers;
+import alcohol.Alcohol;
 
-public abstract class Beers implements Alcohol{
+public abstract class Beers implements Alcohol {
     public String levelOfExcise() {
         return "First level of excise";
     }
