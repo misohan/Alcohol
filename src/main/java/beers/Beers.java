@@ -1,4 +1,11 @@
 package beers;
 
-public class Beers {
+public abstract class Beers implements Alcohol{
+    public String levelOfExcise() {
+        return "First level of excise";
+    }
+
+    public String hangoverOutcome() {
+        return "Hangover effect";
+    }
 }
