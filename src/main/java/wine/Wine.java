@@ -1,4 +1,4 @@
-package Alcohol;
+package wine;
 
 public class Wine {
 }
