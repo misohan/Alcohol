@@ -1,11 +1,7 @@
 package codecooler.michal.com.alcohol.beers;
 
-import codecooler.michal.com.alcohol.beers.Beers;
-
 public class Porter extends Beers {
-
-    public Porter() {
-    }
+    private String typeOfAlcohol = "Porter";
 
     @Override
     public String levelOfExcise() {
@@ -15,5 +11,15 @@ public class Porter extends Beers {
     @Override
     public String hangoverOutcome() {
         return "Massive headache";
+    }
+
+    @Override
+    public String getNameOfAlcohol() {
+        return super.getNameOfAlcohol();
+    }
+
+    @Override
+    public String getTypeOfAlcohol() {
+        return this.typeOfAlcohol;
     }
 }

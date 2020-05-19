@@ -12,18 +12,18 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-
         List<Alcohol> alcohols = new ArrayList<>();
         alcohols.add(new Lager());
         alcohols.add(new Porter());
         alcohols.add(new WhiteWine());
         alcohols.add(new PureVodka());
 
-
-
         try {
             for (Alcohol alcohol: alcohols){
-                System.out.println(alcohol.hangoverOutcome());
+                System.out.println(alcohol.getTypeOfAlcohol() + " is "
+                        + alcohol.getNameOfAlcohol() + ". Excise level: "
+                        + alcohol.levelOfExcise() + ". Hangover outcome: "
+                        + alcohol.hangoverOutcome() +".");
             }
         } catch (Exception e){
             System.out.println(e);

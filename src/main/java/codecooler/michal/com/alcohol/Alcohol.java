@@ -4,4 +4,5 @@ public interface Alcohol {
     String levelOfExcise();
     String hangoverOutcome();
     String getNameOfAlcohol();
+    String getTypeOfAlcohol();
 }
