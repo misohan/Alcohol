@@ -1,8 +1,11 @@
-package alcohol.vodka;
+package codecooler.michal.com.alcohol.vodka;
 
-import alcohol.Alcohol;
+import codecooler.michal.com.alcohol.Alcohol;
 
 public abstract class Vodka implements Alcohol {
+
+    public Vodka() {
+    }
 
     public String levelOfExcise() {
         return "Third level of excise";

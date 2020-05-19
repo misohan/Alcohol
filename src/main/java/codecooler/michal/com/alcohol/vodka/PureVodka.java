@@ -1,6 +1,8 @@
-package alcohol.beers;
+package codecooler.michal.com.alcohol.vodka;
 
-public class Porter extends Beers {
+public class PureVodka extends Vodka {
+
+
 
     @Override
     public String levelOfExcise() {
@@ -9,6 +11,6 @@ public class Porter extends Beers {
 
     @Override
     public String hangoverOutcome() {
-        return "Massive headache";
+        return "Grass is growing too loud";
     }
 }

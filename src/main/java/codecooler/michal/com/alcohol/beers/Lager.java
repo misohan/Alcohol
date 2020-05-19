@@ -1,6 +1,8 @@
-package alcohol.wines;
+package codecooler.michal.com.alcohol.beers;
 
-public class WhiteWine extends Wine {
+import codecooler.michal.com.alcohol.beers.Beers;
+
+public class Lager extends Beers {
 
     @Override
     public String levelOfExcise() {
@@ -9,6 +11,6 @@ public class WhiteWine extends Wine {
 
     @Override
     public String hangoverOutcome() {
-        return "Helicopter effect";
+        return "Amnesia";
     }
 }
